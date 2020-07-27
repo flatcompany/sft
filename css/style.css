@@ -1,0 +1,177 @@
+/* settings */
+
+:root {
+    --main-green: rgb(0,99,65);
+    --back: #eeeeee;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+ul {
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+}
+
+html {
+    font-family: Arial, sans-serif;    
+}
+
+body {
+    background-color: var(--back);
+}
+
+.head {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 3;
+}
+
+.search {
+    position: relative;
+    overflow: hidden;
+}
+
+.search-inp {
+    border: none;
+    border-radius: 50px;
+    background-color: var(--back);
+    outline: none;
+    width: 100%;
+    height: 50px;
+    padding-inline-start: 20px;
+    padding-inline-end: 60px;    
+}
+
+.search-inp::-webkit-input-placeholder { 
+    font-size: 18px; 
+}
+
+.search-btn {
+    background: none;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 12px;
+    right: 23px;
+}
+
+.search-btn:focus{
+    outline:none
+}
+
+.wiki {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cart {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    fill: #006341;
+}
+
+.icon:hover {
+    fill: rgb(255, 184, 28);
+}
+
+.name {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.exit {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    padding-top: 120px;
+}
+
+.section {
+    z-index: 2;
+}
+
+.menu {
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+}
+
+.menu ul li:hover{
+    background-color: #C4C4C4;
+}
+
+.icon-menu {
+    margin: 0 20px;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.list {
+    border-bottom: #eeeeee solid 2px;
+}
+
+
+
+/* Category */
+.filter {
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+.filter ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.filter ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: 60px;
+    width: 100%;
+}
+
+.filter ul li:hover{
+    background-color: #C4C4C4;
+    cursor: pointer;
+}
